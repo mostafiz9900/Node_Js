@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e578908d-d362-4a38-8831-3de5e9f93df3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../fsModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fsModule/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -48,7 +49,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603301437100</updated>
-      <workItem from="1603301438295" duration="832000" />
+      <workItem from="1603301438295" duration="1676000" />
+      <workItem from="1603337282153" duration="601000" />
+      <workItem from="1603425592794" duration="602000" />
+      <workItem from="1603456609305" duration="600000" />
+      <workItem from="1603512926150" duration="6000" />
     </task>
     <servers />
   </component>
