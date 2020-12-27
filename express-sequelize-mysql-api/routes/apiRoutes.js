@@ -6,7 +6,10 @@ const db=require('../models')
 
 // get all todos
 apiRouter.get("/get/all", (req, res) => {
-    db.Todo.findAll().then(todos => res.send(todos));
+    db.Todo.findAll().then(todos => res.json({
+        message: "Get all Customers' Infos Successfully!",
+        todos:todos
+    }));
   });
 //   get single data
  apiRouter.get('/find/:id',(req,res)=>{
@@ -55,5 +58,10 @@ apiRouter.put("/edit", (req, res) => {
         where: { id: req.body.id }
       }
     ).then(() => res.send("success"));
-  });
+  }); 
+
+
+  apiRouter.get('/file/download',function(req,res){
+res.download('./uploads/mostafiz.jpg');
+  })
 module.exports=apiRouter;
